@@ -1,0 +1,6 @@
+feedparser
+lxml
+pandas
+openai
+openpyxl
+jinja2
