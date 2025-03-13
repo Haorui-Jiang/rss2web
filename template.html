@@ -101,6 +101,12 @@
             display: flex;
             align-items: center;
             gap: 0.8rem;
+            font-size: 16px;
+        }
+
+        .meta-title {
+            color: var(--accent-color);
+            font-weight: 600;
         }
 
         .author-section {
@@ -175,7 +181,7 @@
         <div id="paperList">
             {% for paper in papers %}
             <div class="paper-card" 
-                 data-search="{{ paper.title|lower }} {{ paper.title_zh|lower }} {{ paper.author|lower }} {{ paper.source|lower }}">
+                 data-search="{{ paper.title|lower }} {{ paper.title_zh|lower }} {{ paper.author|lower }} {{ paper.source|lower }} {{ paper.created_time|lower }}">
                 <div class="title-group">
                     <h2 class="en-title">{{ paper.title }}</h2>
                     <div class="zh-title">{{ paper.title_zh }}</div>
@@ -183,11 +189,14 @@
 
                 <div class="meta-info">
                     <div class="meta-item">
-                        <i class="far fa-calendar-alt"></i>
+                        <span class="meta-title">Publication date:</span>
                         <span>{{ paper.publication_date }}</span>
+                        
+                        <span class="meta-title">Created time:</span>
+                        <span>{{ paper.created_time }}</span>
                     </div>
                     <div class="meta-item">
-                        <i class="far fa-newspaper"></i>
+                        <span class="meta-title">Source:</span>
                         <span>{{ paper.source }}</span>
                     </div>
                 </div>

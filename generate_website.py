@@ -31,3 +31,4 @@ if __name__ == "__main__":
     html = render_template("template.html", papers=papers_data)
     with open("index.html", "w", encoding="utf-8") as f:
         f.write(html)
+    print("index.html 已生成！")
