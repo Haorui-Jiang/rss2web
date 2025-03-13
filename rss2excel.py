@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 """
-    @ 程序名称: rss2excel_jhg.py
+    @ 程序名称: rss2excel.py
     @ 程序功能: 从 RSS 网站获取最新论文信息，并将其保存到 Excel 文件中
     @ 示例数据: Journal of Historical Geography
 """
