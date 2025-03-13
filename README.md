@@ -47,6 +47,7 @@ project/
 | source | 期刊、卷号等信息 |
 | author | 作者（逗号分隔） |
 | link | 论文链接 |
+| created_time | 信息创建时间 |
 
 ### 运行流程
 
