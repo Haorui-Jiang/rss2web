@@ -79,4 +79,5 @@ python generate_website.py
 
 本程序初始灵感来自锐多宝（程锐）开源发布的 [rss2web](https://github.com/ruiduobao/rss2web) 项目，核心代码在继承其设计理念的基础上进行调整。通过他的公众号【锐多宝】收获了很多知识和方法，真诚感谢他多年来无私的技术分享。
 
-本程序代码参考自[智谱](https://bigmodel.cn/)、[Kimi](https://kimi.moonshot.cn/)、[DeepSeek](https://www.deepseek.com/)（[腾讯元宝](https://yuanbao.tencent.com/)）等国产大模型，衷心感谢这些人工智能研究团队的技术支持。
+本程序核心代码借助 [智谱](https://bigmodel.cn/)、[Kimi](https://kimi.moonshot.cn/)、[DeepSeek](https://www.deepseek.com/)（[腾讯元宝](https://yuanbao.tencent.com/)）等国产大模型进行编写，衷心感谢这些人工智能研究团队的技术支持。
+
